@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: tweetspy-watcher
+  labels:
+    app: tweetspy
+spec:
+  # It's very important that only a single instance of this is ever
+  # running at a time.
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tweetspy
+        tier: tweetspy-watcher
+    spec:
+      containers:
+      - name: tweetspy-watcher
+        image: gcr.io/tweet-spy/tweetspy-watcher:latest
+        imagePullPolicy: Always

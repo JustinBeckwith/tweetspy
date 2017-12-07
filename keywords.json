@@ -1,0 +1,47 @@
+{
+  "tags": [
+    {
+      "name": "node.js",
+      "hints": [ "node.js", "nodejs", "npm" ]
+    }, {
+      "name": "javascript",
+      "hints": [ "javascript", "npm", "nodejs", "node.js", "typescript" ]
+    }, {
+      "name": "ruby",
+      "hints": [ "ruby", "rails", "rubygem" ]
+    }, {
+      "name": "kotlin",
+      "hints": [ "kotlin" ]
+    }, {
+      "name": "java",
+      "hints": [ "java", "maven", "gradle", "jdk", "jre" ]
+    }, {
+      "name": "php",
+      "hints": [ "php" ]
+    }, {
+      "name": "elixir",
+      "hints": [ "elixir" ]
+    }, {
+      "name": "c#",
+      "hints": [ "asp.net", ".net core", "csharp", "c#" ]
+    }, {
+      "name": "go",
+      "hints": [ "golang" ]
+    }, {
+      "name": "rust",
+      "hints": [ "rust", "rustlang" ]
+    }, {
+      "name": "typescript",
+      "hints": [ "typescript" ]
+    }, {
+      "name": "scala",
+      "hints": [ "scala" ]
+    }, {
+      "name": "swift",
+      "hints": [ "swift", "swiftlang" ]
+    }, {
+      "name": "python",
+      "hints": [ "python" ]
+    }
+  ]
+}
